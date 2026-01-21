@@ -1,1 +1,24 @@
-Hello this is the first commit i'm doing
+# Author : Heer Patel 
+# Purpose : Git Commands for devops Basics to advance 
+
+---------------------------------------------------Starting-------------------------------------------------------------------
+
+---------INITALIZATION---------
+  
+	Git init : Once you are in the project directory you can use the  git init command to initalized the repo 
+
+---------CONFIGURATION-----------
+	git config --global user.name "<name>" : Before cloning or accessing the remote repo you need to configure your username and email. 
+	
+	git config --global user.email "<email>": Before cloning or accessing the remote repo you need to configure your username and email. 
+
+------------ACCESSING THE REPO----------
+
+	1.You can access the repo by cloning it.
+	   git clone <Copied url> : If you want to  clone the repo we use git clone with repo url for example  
+				    git clone https://github.com/username/Git-commands.git
+
+
+	2.You want the direct remote access and push code to your repo without cloning
+	   git remote add origin <Copied Url> : This will give you the remote access to the local system where you can directly push and pull to repository 
+						example :  git remote add origin https://github.com/username/Git-commands.git
